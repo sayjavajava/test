@@ -18,4 +18,7 @@ public interface ArticleService {
     long count();
 
     void delete(Article article);
+
+     String findByAuthorName(String name);
+
 }
